@@ -1,0 +1,80 @@
+body{
+    background-color: #23272a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* page layout  */
+#container{
+    display: grid;
+    min-height: 100vh;
+    min-width: 100vw;
+    gap: 1rem;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 4rem  auto auto auto;
+    grid-template-areas: 
+    "header header header header"
+    "search  cWeather cWeather cWeather"
+    "searchH  cWeather cWeather cWeather"
+    "searchH  cWeather cWeather cWeather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather"
+    "searchH  fWather fWather fWather";
+} 
+
+#banner{
+    grid-area: header;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(#5866ef, #09b0f2);
+}
+#searchBar{
+    grid-area:search;
+    background-color: white;
+}
+#searchHistory{
+    grid-area:searchH;
+    background-color: white;
+}
+#curretForcast{
+    grid-area:cWeather;
+    background-color: white;
+}
+#futureForcast{
+    grid-area:fWather;
+    background-color: white;
+}
+/* ------------------------------------ */
+
+/* Page stlying */
+
+
+/* Search Box */
+#search{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+#city{
+height: 30px;
+}
+
+#searchBtrn{
+    position:relative;
+    bottom: -10px;}
+/* ------------------- */
+
+/* Search History  */
+#searchHistory{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
