@@ -67,14 +67,28 @@ body{
 height: 30px;
 }
 
-#searchBtrn{
-    position:relative;
-    bottom: -10px;}
-/* ------------------- */
+input[type=submit]{
+    background: #09b0f2;
+    padding:5px 15px; 
+}
 
 /* Search History  */
 #searchHistory{
     text-align: center;
     display:flex;
     flex-direction: column;
+}
+
+.btn-primary{
+    background-color: #09b0f2;
+    height: 32px;
+    width: auto;
+}
+
+ .historyList{
+    padding-right: 32px;
+}
+
+ol .btn{
+    width: 300px;
 }
