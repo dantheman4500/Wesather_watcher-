@@ -11,21 +11,21 @@ body{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 4rem  auto auto auto;
     grid-template-areas: 
-    "header header header header"
-    "search  cWeather cWeather cWeather"
-    "searchH  cWeather cWeather cWeather"
-    "searchH  cWeather cWeather cWeather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather"
-    "searchH  fWather fWather fWather";
+    "header header header header header header "
+    "search  cWeather cWeather cWeather cWeather cWeather"
+    "searchH  cWeather cWeather cWeather cWeather cWeather"
+    "searchH  cWeather cWeather cWeather cWeather cWeather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather"
+    "searchH  fWather fWather fWather fWather fWather";
 } 
 
 #banner{
@@ -89,6 +89,47 @@ input[type=submit]{
     padding-right: 32px;
 }
 
-ol .btn{
+ol button.btn{
     width: 300px;
+    margin-top: 1rem;
+
 }
+
+#history{
+  margin-top: 1rem;
+}
+
+/* Wather Status  */
+
+ul#weatherStat{
+    padding-left:0;
+    line-height: 3rem; 
+    margin-bottom: 15px
+}
+
+ol#uv{
+    display: inline-flex;
+}
+ol#wind{
+    margin-top: 10px;
+}
+div#uvBox{
+    border: .1px solid black;
+    margin-left: 5px;
+    width: fit-content ;
+    padding-right:5px;
+    padding-left: 5px;
+    justify-content: center;
+
+}
+
+.danger{
+    background-color: #ec4145;
+}
+.ok{
+    background-color: #f9a62b;
+}
+.good{
+    background-color: #3da560;
+}
+

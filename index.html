@@ -17,18 +17,33 @@
       <div id="searchBar">
           <label for="city">Search for a city:</label><br>
           <input type="text" id="city" name="city" placeholder="Los Angeles">
-          <button class="btn btn-primary" type="submit" id="submit" value="Search" >Button</button>
+          <button class="btn btn-primary" type="submit" id="submit" value="Search" >Search</button>
 
       </div>
-      <div id="curretForcast"></div>
-      <div id="searchHistory">
-        <ul id="history">
-          <ol class="historyList"><input class="btn btn-primary"  type="submit"></ol>
-          <ol class="historyList"><input  class="btn btn-primary" type="submit"></ol>
-          <ol class="historyList"><input class="btn btn-primary"  type="submit"></ol>
+      <div id="curretForcast">
+        <ul id="weatherStat">
+          <ol id="City">Hawthorne</ol>
+          <ol id="wind">Wind:</ol>
+          <ol id="temp">Temp:</ol>
+          <ol id="humidity">humidity:</ol>
+          <ol id="uv">UV Index:<div id="uvBox" class="danger">12</div></ol>
         </ul>
       </div>
-      <div id="futureForcast"></div>
+      <div id="searchHistory">
+        <ul id="history">
+          <ol class="historyList" ><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
+          <ol class="historyList"><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
+          <ol class="historyList"><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
+        </ul>
+      </div>
+      <div id="futureForcast">
+        <div id="forcastTittle"></div>
+        <div id="day1" class="weatherBoard"></div>
+        <div id="day 2" class="weatherBoard"></div>
+        <div id="day 3" class="weatherBoard"></div>
+        <div id="day 4" class="weatherBoard"></div>
+        <div id="day 5" class="weatherBoard"></div>        
+      </div>
     </div>
 	<script src="./logitech.js"></script>
   </body>
