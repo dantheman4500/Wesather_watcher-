@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./stlye.css">
+    <link 
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link 
+    rel="stylesheet" 
+    href="./stlye.css">
   </head>
   
   <body>
     <div id= "container">
       <div id="banner">
-        <p >Weather App</p> 
+        <p>Weather App</p> 
       </div>
       <div id="searchBar">
           <label for="city">Search for a city:</label><br>
@@ -22,7 +31,7 @@
       </div>
       <div id="curretForcast">
         <ul id="weatherStat">
-          <ol id="City">Hawthorne</ol>
+          <ol id="City" >Hawthorne</ol>
           <ol id="wind">Wind:</ol>
           <ol id="temp">Temp:</ol>
           <ol id="humidity">humidity:</ol>
@@ -37,12 +46,42 @@
         </ul>
       </div>
       <div id="futureForcast">
-        <div id="forcastTittle"></div>
-        <div id="day1" class="weatherBoard"></div>
-        <div id="day 2" class="weatherBoard"></div>
-        <div id="day 3" class="weatherBoard"></div>
-        <div id="day 4" class="weatherBoard"></div>
-        <div id="day 5" class="weatherBoard"></div>        
+        <div id="forcastTittle"> 5-day Forcast</div>
+        <div id="day1" class="weatherBoard">
+          <div id="day1Date">date</div>
+          <div id="day1Icon" >icon</div>
+          <div id="day1Temp"> temp</div>
+          <div id="day1Wind">wind</div>
+          <div id="day1Hum"> hum</div>
+        </div>
+        <div id="day2" class="weatherBoard">
+          <div id="day2Date">date</div>
+          <div id="day2Icon">icon</div>
+          <div id="day2Temp"> temp</div>
+          <div id="day2Wind">wind</div>
+          <div id="day2Hum"> hum</div>
+        </div>
+        <div id="day3" class="weatherBoard">
+          <div id="day3Date">date</div>
+          <div id="day3Icon">icon</div>
+          <div id="day3Temp"> temp</div>
+          <div id="day3Wind">wind</div>
+          <div id="day3Hum"> hum</div>
+        </div>
+        <div id="day4" class="weatherBoard">
+          <div id="day4Date">date</div>
+          <div id="day4Icon">icon</div>
+          <div id="day4Temp"> temp</div>
+          <div id="day4Wind">wind</div>
+          <div id="day5Hum"> hum</div>
+        </div>
+        <div id="day5" class="weatherBoard">
+          <div id="day5Date">date</div>
+          <div id="day5Icon">icon</div>
+          <div id="day5Temp"> temp</div>
+          <div id="day5Wind">wind</div>
+          <div id="day5Hum"> hum</div>
+        </div>        
       </div>
     </div>
 	<script src="./logitech.js"></script>

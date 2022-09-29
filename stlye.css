@@ -1,13 +1,16 @@
 body{
     background-color: #23272a;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
 }
 /* page layout  */
 #container{
     display: grid;
+    gap: 1rem;
     min-height: 100vh;
     min-width: 100vw;
-    gap: 1rem;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 4rem  auto auto auto;
     grid-template-areas: 
@@ -133,3 +136,45 @@ div#uvBox{
     background-color: #3da560;
 }
 
+/* 5 day Forcast board */
+
+#futureForcast{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto ;
+    gap:1rem;
+    grid-template-areas: 
+    " tittle tittle tittle tittle tittle"
+    " day1 day2 day3 day4 day5"
+}
+
+.weatherBoard{
+    border: 3px solid black;
+    width: 140px;
+    height: 200px;
+    background: #4f5d7e;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+/* forcast boards  */
+#forcastTittle{
+    grid-area:tittle;
+    text-align: center;
+}
+#day1{
+    grid-area:day1;
+    
+}
+#day2{
+    grid-area:day2;
+}
+#day3{
+    grid-area:day3;
+}
+#day4{
+    grid-area:day4;
+}
+#day5{
+    grid-area:day5;
+}
