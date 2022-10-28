@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
-    <!-- <link 
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet"> -->
     <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
@@ -23,61 +20,58 @@
       <div id="banner">
         <p>Weather App</p> 
       </div>
-      <div id="searchBar">
+      <form id="searchBar">
           <label for="city">Search for a city:</label><br>
           <input type="text" id="searchInput" name="city" placeholder="Los Angeles" value=""> 
           <button class="btn btn-primary" type="submit" id="submit" value="Search" >Search</button>
-
-      </div>
+      </form>
       <div id="curretForcast">
         <ul id="weatherStat">
-          <ol id="City" >Hawthorne</ol>
-          <ol id="wind">Wind:</ol>
-          <ol id="temp">Temp:</ol>
-          <ol id="humidity">humidity:</ol>
-          <ol id="uv">UV Index:<div id="uvBox" class="danger">12</div></ol>
+          <li id="City" >Hawthorne</li><img id="weatherIcon">
+          <li id="windSpeed">Wind:</li>
+          <li id="temp">Temp:</li>
+          <li id="humidity">humidity:</li>
+          <li id="uv">UV Index:<div id="uvBox" class="danger">12</div></li>
         </ul>
       </div>
       <div id="searchHistory">
         <ul id="history">
-          <ol class="historyList" ><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
-          <ol class="historyList"><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
-          <ol class="historyList"><button class="btn btn-primary" type="submit" class="historyList">Lakewood</button></ol>
+ 
         </ul>
       </div>
       <div id="futureForcast">
         <div id="forcastTittle"> 5-day Forcast</div>
         <div id="day1" class="weatherBoard">
           <div id="day1Date">date</div>
-          <div id="day1Icon" class ="material-icons">icon</div>
+          <div id="day1Icon" ></div>
           <div id="day1Temp"> temp</div>
           <div id="day1Wind">wind</div>
           <div id="day1Hum"> hum</div>
         </div>
         <div id="day2" class="weatherBoard">
           <div id="day2Date">date</div>
-          <div id="day2Icon">icon</div>
+          <div id="day2Icon"></div>
           <div id="day2Temp"> temp</div>
           <div id="day2Wind">wind</div>
           <div id="day2Hum"> hum</div>
         </div>
         <div id="day3" class="weatherBoard">
           <div id="day3Date">date</div>
-          <div id="day3Icon">icon</div>
+          <div id="day3Icon"></div>
           <div id="day3Temp"> temp</div>
           <div id="day3Wind">wind</div>
           <div id="day3Hum"> hum</div>
         </div>
         <div id="day4" class="weatherBoard">
           <div id="day4Date">date</div>
-          <div id="day4Icon">icon</div>
+          <div id="day4Icon"></div>
           <div id="day4Temp"> temp</div>
           <div id="day4Wind">wind</div>
-          <div id="day5Hum"> hum</div>
+          <div id="day4Hum"> hum</div>
         </div>
         <div id="day5" class="weatherBoard">
           <div id="day5Date">date</div>
-          <div id="day5Icon">icon</div>
+          <div id="day5Icon"></div>
           <div id="day5Temp"> temp</div>
           <div id="day5Wind">wind</div>
           <div id="day5Hum"> hum</div>
