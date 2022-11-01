@@ -12,7 +12,7 @@ Information entered by the user is stored in local storage.
  To start just go ahead and click [this](https://dantheman4500.github.io/Wesather_watcher-/) <br />
  To start put a city in the search bar.<br />
  Rahter push Enter/reutrn or you can click on the search.<br />
- ![websiteimg](![weather app](https://user-images.githubusercontent.com/103381483/199351057-3728457d-db87-4e07-b6a1-886c29e617ff.PNG))
+![weather app](https://user-images.githubusercontent.com/103381483/199351057-3728457d-db87-4e07-b6a1-886c29e617ff.PNG)
 ### Executing program
 
 Codes used:
