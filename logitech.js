@@ -69,7 +69,7 @@ function fiveDayforcast(data){
  function day2(weather){
   var des = weather.weather[0].description
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   var temp = weather.temp.min;
   var humidity = weather.humidity;
   var windSpeed = weather.wind_speed;
@@ -87,7 +87,7 @@ function fiveDayforcast(data){
  function day3(weather){
   var des = weather.weather[0].description
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   var temp = weather.temp.min;
   var humidity = weather.humidity;
   var windSpeed = weather.wind_speed;
@@ -105,7 +105,7 @@ function fiveDayforcast(data){
  function day4(weather){
   var des = weather.weather[0].description
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   var temp = weather.temp.min;
   var humidity = weather.humidity;
   var windSpeed = weather.wind_speed;
@@ -123,7 +123,7 @@ function fiveDayforcast(data){
  function day5(weather){
   var des = weather.weather[0].description
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   var temp = weather.temp.min;
   var humidity = weather.humidity;
   var windSpeed = weather.wind_speed;
@@ -147,7 +147,7 @@ function currentWeather(city,weather, timezone) {
   var humidity = weather.humidity;
   var uvIndex = weather.uvi;
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   //* Setts values to the current weather on the DomuvBoxEl
   cityEl.textContent = city;
   weatherIconEl.setAttribute('src', iconUrl);
