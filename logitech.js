@@ -50,7 +50,7 @@ function fiveDayforcast(data){
  function day1(weather){
   var des = weather.weather[0].description
   var icon = weather.weather[0].icon ;
-  var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+  var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
   var temp = weather.temp.min;
   var humidity = weather.humidity;
   var windSpeed = weather.wind_speed;
